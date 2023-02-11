@@ -1,6 +1,4 @@
-async function changeBackground() {
-    let images = ["url('images/furniture.jpg')", "url('images/food.jpg')", "url('images/monks.jpg')", "url('images/amogus.jpg')"]
-    preloadImages(images)
+async function changeBackground(images) {
     let i = 0
     while (1 === 1) {
         document.getElementById("large-bg-img").style.backgroundImage = images[i]
