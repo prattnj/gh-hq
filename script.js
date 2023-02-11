@@ -4,7 +4,7 @@ async function changeBackground(images) {
         document.getElementById("large-bg-img").style.backgroundImage = images[i]
         if (i === 3) i = 0
         else i++
-        await sleep(100)
+        await sleep(20)
     }
 }
 
