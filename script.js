@@ -8,13 +8,6 @@ async function changeBackground(images) {
     }
 }
 
-function preloadImages(images) {
-    for (let i = 0; i < images.length; i++) {
-        let img = new Image()
-        img.src = images[i]
-    }
-}
-
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
