@@ -19,7 +19,7 @@ body {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url('/images/furniture.jpg');
+    background-image: url('/images/furniture-min.jpg');
     height: 100%;
     opacity: 1.0;
 }

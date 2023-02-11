@@ -1,5 +1,5 @@
 async function changeBackground() {
-    let images = ["url('images/furniture.jpg')", "url('images/food.jpg')", "url('images/monks.jpg')", "url('images/amogus.jpg')"]
+    let images = ["url('images/furniture-min.jpg')", "url('images/food-min.jpg')", "url('images/monks-min.jpg')", "url('images/amogus-min.jpg')"]
     let i = 0
     while (1 === 1) {
         document.getElementById("large-bg-img").style.backgroundImage = images[i]
