@@ -15,11 +15,12 @@ body {
     position: absolute;
 }
 
-#large-bg-img {
+#bg-img {
     overflow: hidden;
     background-size: cover;
     background-position: center;
     background-image: url('/images/landscape-min/furniture.jpg');
+    transition: background-image 2s ease-in-out;
     height: 100%;
     opacity: 1.0;
 }
