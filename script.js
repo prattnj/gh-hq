@@ -1,10 +1,10 @@
-async function changeBackground(images) {
+async function changeBackground(images, timeout) {
     let i = 0
     while (1 === 1) {
         document.getElementById("large-bg-img").style.backgroundImage = images[i]
         if (i === images.length - 1) i = 0
         else i++
-        await sleep(3000)
+        await sleep(timeout)
     }
 }
 

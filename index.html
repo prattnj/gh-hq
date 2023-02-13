@@ -37,13 +37,21 @@
 </div>
 
 <script>
-    let images = ["url('images/landscape-min/furniture.jpg')", "url('images/landscape-min/food.jpg')",
+    let images_l = ["url('images/landscape-min/furniture.jpg')", "url('images/landscape-min/food.jpg')",
         "url('images/landscape-min/monks.jpg')", "url('images/landscape-min/amogus.jpg')",
         "url('images/landscape-min/council.jpg')", "url('images/landscape-min/doubletv.jpg')",
         "url('images/landscape-min/food2.jpg')", "url('images/landscape-min/patio.jpg')",
         "url('images/landscape-min/plaque.jpg')", "url('images/landscape-min/puzzle.jpg')",
         "url('images/landscape-min/timp.jpg')", "url('images/landscape-min/ymount.jpg')"]
-    changeBackground(images)
+    let images_p = ["url('images/portrait-min/fire.jpg')", "url('images/portrait-min/foosball.jpg')",
+        "url('images/portrait-min/fortnite.jpg')", "url('images/portrait-min/fortnite2.jpg')",
+        "url('images/portrait-min/goat.jpg')", "url('images/portrait-min/harley.jpg')",
+        "url('images/portrait-min/timp.jpg')"]
+    if (window.outerWidth > window.outerHeight) {
+        changeBackground(images_l, 3000)
+    } else {
+        changeBackground(images_p, 3000)
+    }
 </script>
 </body>
 
